@@ -1,0 +1,33 @@
+.checkoutItem {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 20px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.checkoutItem img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkoutItem {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr repeat(4, 50px);
+    text-align: center;
+    padding: 15px 0px;
+    border: none;
+  }
+
+  .checkoutItem:first-child {
+    grid-row: auto / span 2;
+  }
+
+  .checkoutItem img {
+    height: 200px;
+    margin: auto;
+  }
+}

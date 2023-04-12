@@ -1,0 +1,14 @@
+.capitalize {
+  text-transform: capitalize;
+}
+
+.hoverUnderglow:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .breadcrumbsHolder {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,50 @@
+.table {
+  margin: auto;
+  width: 60%;
+}
+
+.heading {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.actions {
+  text-align: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .table {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .heading {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr repeat(4, 50px);
+    text-align: center;
+    border: none;
+  }
+
+  .heading:first-child {
+    grid-row: auto / span 2;
+  }
+
+  .itemWrapper {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .table {
+    width: 100%;
+  }
+}

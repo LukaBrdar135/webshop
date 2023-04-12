@@ -1,0 +1,183 @@
+.pageWrapper {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: auto;
+  max-width: 90%;
+  width: 100%;
+}
+
+/* Text classes */
+
+.textCenter {
+  text-align: center;
+}
+
+.errorText {
+  color: #f00;
+}
+
+.textUpper {
+  text-transform: uppercase;
+}
+
+/* End text classes */
+
+.displayInlineBlock {
+  display: inline-block;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.blockCover {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* margin Classes */
+.padX1 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.padX2 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.padX3 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.padX4 {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.padX5 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.padY1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.padY2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.padY3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.padY4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.padY5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.marginX1 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.marginX2 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.marginX3 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.marginX4 {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.marginX5 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.mr1 {
+  margin-right: 10px;
+}
+
+/* View Classes */
+
+.mobileView {
+  display: none;
+}
+
+.tabletView {
+  display: none;
+}
+
+.tabletAndLessView {
+  display: none;
+}
+
+.smallScreenView {
+  display: none;
+}
+
+.smallScreenAndMoreView {
+  display: none;
+}
+.desktopView {
+  display: none;
+}
+
+.extraLargeView {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .tabletView {
+    display: block;
+  }
+
+  .tabletAndLessView {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mobileView {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .smallScreenAndMoreView {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .smallScreenView {
+    display: block;
+  }
+
+  .smallScreenAndLessView {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .desktopView {
+    display: block;
+  }
+}
+
+/* End View Classes */

@@ -1,0 +1,89 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  text-transform: uppercase;
+  background-color: #fff;
+  z-index: 100000;
+}
+
+.navItems {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+}
+
+.navListItem {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.menuItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bugerMenuBtn {
+  width: 30px;
+}
+
+.bugerMenuBtn .centerBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+  }
+
+  .burgerContent {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+  }
+
+  .burgerContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navList {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navListItem {
+    width: 70%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .navListItem:last-child {
+    padding: 10px 0 20px 0;
+  }
+}

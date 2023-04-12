@@ -1,0 +1,94 @@
+.form {
+  text-align: left;
+}
+
+.formWidthM {
+  width: 35vw;
+}
+
+.formWidthL {
+  width: 50vw;
+}
+
+.formWidthXL {
+  width: 75vw;
+}
+
+.formWidhtFull {
+  width: 100%;
+}
+
+.centerForm {
+  margin: auto;
+}
+
+.formHeading {
+  margin-bottom: 40px;
+}
+
+.formActions {
+  width: 100%;
+}
+
+.formActions button:first-child {
+  margin-right: 10px;
+}
+
+.form h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.form p {
+  font-weight: 100;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup p {
+  color: #f00;
+}
+
+.form input {
+  font-weight: 100;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 20px 5px 5px 5px;
+  font-size: 1rem;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.form textarea:focus {
+  outline: 1px solid #000;
+}
+
+.form label {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1024px) {
+  .form {
+    width: 100%;
+    padding: 30px;
+  }
+}

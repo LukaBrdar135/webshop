@@ -1,0 +1,16 @@
+.toastLayout {
+  position: fixed;
+  top: 100px;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  .toastLayout {
+    top: 75px;
+  }
+}
